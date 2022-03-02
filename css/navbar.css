@@ -6,4 +6,33 @@
   width: 100%;
   padding: 0;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar p{
+  color: white;
+  font-size: 90px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.navbar a{
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 31px 15px 31px 15px;
+}
+
+.navbar a:hover{
+  color: grey;
+  border: 2px solid grey;
+  background-color: rgba(red, green, blue, alpha);
+
+}
+
+.navbar-link{
+  display: flex;
+  align-items: center;
 }
