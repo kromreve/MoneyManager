@@ -11,3 +11,31 @@ html, body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+#main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+#left{
+    width: 12%;
+    height: 100vh;
+}
+
+#center{
+    height: 100vh;
+    width: 66%;
+    background-color: rgb(201, 198, 198);
+    background-image: url(/MoneyManager/img/highrise.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#right{
+    height: 100vh;
+    width: 12%;
+}

@@ -8,11 +8,12 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  border-bottom: 2px solid white;
 }
 
 .navbar p{
   color: white;
-  font-size: 90px;
+  font-size: 80px;
   margin: 0;
   padding-left: 10px;
 }
