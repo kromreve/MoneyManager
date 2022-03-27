@@ -9,29 +9,32 @@ html, body{
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    overflow-y: hidden;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
-.flexbox{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    height: 100%;
-}
-
-.dash{
-    width: 70%;
-    height: 100%;
-    display: flex;
-    align-items: flex-start;
-}
-
-.dash div{
+/* panels */
+.panel {
     background-color: white;
-    width: 20%;
-    height: 25%;
-    margin: 5px;
-    border-radius: 15px;
+    color: darkslategray;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+    margin: 1%;
 }
+
+.panel > h2, .panel > ul {
+    margin: 1rem;
+}
+
+.panel a{
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    background-color: deepskyblue;
+}
+
+.panel a:hover{
+    background-color: rgba(0, 191, 255, 0.7);
+}
+  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/dashbaord.css">
+    <title>Money Manager</title>
+</head>
+<body>
+    <header role="banner">
+      <h1>MONEY MANAGER</h1>
+      <ul class="utilities">
+        <li class="logout warn"><a href="home.html">Log Out</a></li>
+      </ul>
+    </header>
+      
+      <nav role="navigation">
+        <ul class="main">
+          <li class=""><a href="dashboard.html">Accounts</a></li>
+          <li class="active_tab"><a href="#">Transfer Funds</a></li>
+          <li class=""><a href="profile.html">Profile</a></li>
+          <li class=""><a href="faqs.html">Help/FAQs</a></li>
+        </ul>
+      </nav>
+      
+      <main role="main">
+        <section class="panel ">
+          <h2>Accounts</h2>
+            <table>
+              <tr>
+                <th>Transfer From:</th>
+                <th>Amount:</th>
+                <th>Send To:</th>
+              </tr>
+              <tr>
+                <td>
+                  <select>
+                    <option value="checking">Checking</option>
+                    <option value="saving">Savings</option>
+                  </select>
+                </td>
+                <td>
+                  $<input placeholder="0.00" type="amount">
+                </td>
+                <td>
+                  <select>
+                    <option value="checking">Checking</option>
+                    <option value="saving">Savings</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+        </section>
+      
+      </main>
+</body>
+</html>

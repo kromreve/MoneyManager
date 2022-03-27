@@ -1,0 +1,28 @@
+.names{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+}
+
+.content-box{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.name-label{
+  margin-right: 100px;
+}
+
+.contact-label{
+  margin-right: 70px;
+}
+
+.save-button{
+  margin: 5px;
+}

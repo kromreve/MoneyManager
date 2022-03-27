@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/dashbaord.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <title>Money Manager</title>
+</head>
+<body>
+    <header role="banner">
+      <h1>MONEY MANAGER</h1>
+      <ul class="utilities">
+        <li class="logout warn"><a href="home.html">Log Out</a></li>
+      </ul>
+    </header>
+      
+      <nav role="navigation">
+        <ul class="main">
+          <li class=""><a href="dashboard.html">Accounts</a></li>
+          <li class=""><a href="transferFunds.html">Transfer Funds</a></li>
+          <li class="active_tab"><a href="#">Profile</a></li>
+          <li class=""><a href="faqs.html">Help/FAQs</a></li>
+        </ul>
+      </nav>
+      
+      <main role="main">
+        <section class="panel ">
+          <h2>My Info</h2>
+          <div class="content-box">
+            <div class="names">
+              <div class="name-label"><label class="labels">First Name </label><input type="text" class="form-control" placeholder="First Name" value=""></div>
+              <div class="name-label"><label class="labels">Last Name </label><input type="text" class="form-control" value="" placeholder="Last Name"></div>
+            </div>
+            <div class="contact">
+              <div class="contact-label"><label class="labels">Mobile Number </label><input type="text" class="form-control" placeholder="enter phone number" value=""></div>
+              <div class="contact-label"><label class="labels">Email Address </label><input type="text" class="form-control" placeholder="enter email address" value=""></div>
+            </div>
+        </div>
+        <div class="save-button"><button class="btn" type="button">Save Profile</button></div>
+        </section>
+        <section class="panel ">
+          <h2>Security</h2>
+          <div class="content-box">
+            <div class="names">
+              <div class="name-label"><label class="labels">Old Password </label><input type="text" class="form-control" placeholder="First Name" value=""></div>
+            </div>
+            <div class="contact">
+              <div class="contact-label"><label class="labels">New Password </label><input type="text" class="form-control" placeholder="enter phone number" value=""></div>
+              <div class="contact-label"><label class="labels">Confirm Password </label><input type="text" class="form-control" placeholder="enter email address" value=""></div>
+            </div>
+        </div>
+        <div class="save-button"><button class="btn" type="button">Submit</button></div>
+        </section>
+      </main>
+</body>
+</html>
