@@ -1,5 +1,5 @@
 .sidebar{
-    width: 20%;
+    width: 30%;
     height: 100%;
     background: black;
     left: 0;
@@ -226,13 +226,13 @@ td {
 
   nav[role=navigation] {
     position: fixed;
-    width: 200px;
+    width: 300px;
     top: 75px;
     bottom: 0px;
   }
 
   main[role=main] {
-    margin: 0px 0 40px 200px;
+    margin: 0px 0 40px 300px;
   }
   main[role=main]:after {
     content: "";

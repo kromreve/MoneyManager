@@ -41,18 +41,78 @@
               <td>Checking</td>
               <td>7</td>
               <td>0096656542772</td>
-              <td><a href="#">Details</a></td>
+              <td><a onclick="on()" href="#">Details</a></td>
             </tr>
             <tr>
               <td>Mary</td>
               <td>Savings</td>
               <td>2517</td>
               <td>3254388987552</td>
-              <td><a href="#">Details</a></td>
+              <td><a onclick="on()" href="#">Details</a></td>
             </tr>
           </table>
         </section>
-      
       </main>
+
+      <div id="overlay">
+        <div id="account__details">
+          <div id="header">
+            <div id="title">Account Summary</div>
+            <div id="close" onclick="off()">X</div>
+          </div>
+          <div id="body">
+            <div id="account__summary">
+              <section class="panel ">
+                <table>
+                  <!--
+                  <tr>
+                    <th>Date</th>
+                    <th>Transaction</th>
+                    <th>Amount</th>
+                  </tr>
+                  -->
+                  <tr>
+                    <th>Type</th>
+                    <th>Balance</th>
+                    <th>Account Number</th>
+                    <th>Routing Number</th>
+                  </tr>
+                  <tr>
+                    <td>Savings</td>
+                    <td>2517</td>
+                    <td>3254388987552</td>
+                    <td>9789812367900</td>
+                  </tr>
+                </table>
+              </section>
+              <div id="title__small">Credit Score</div>
+              <div class="chart" id="graph" data-percent="750"></div>
+            </div>
+            <div id="transaction__history">
+              <section class="panel ">
+                <h2>Transaction History</h2>
+                <table>
+                  <tr>
+                    <th>Date</th>
+                    <th>Transaction</th>
+                    <th>Amount</th>
+                  </tr>
+                  <tr>
+                    <td>07/04/2021</td>
+                    <td>Walmart</td>
+                    <td>25</td>
+                  </tr>
+                  <tr>
+                    <td>06/24/2021</td>
+                    <td>Woodmans</td>
+                    <td>50</td>
+                  </tr>
+                </table>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="js/dashboard.js"></script>
 </body>
 </html>
