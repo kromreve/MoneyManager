@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/dashbaord.css">
+    <link rel="stylesheet" href="css/contact.css">
     <title>Money Manager</title>
 </head>
 <body>
     <header role="banner">
       <h1>MONEY MANAGER</h1>
       <ul class="utilities">
+        <li class="logout warn"><a onclick="contactOn()" href="#">Contact Us</a></li>
         <li class="logout warn"><a href="home.html">Log Out</a></li>
       </ul>
     </header>
@@ -57,7 +59,36 @@
               </tr>
             </table>
         </section>
-      
       </main>
+      <div id="contact">
+        <div id="contact_form">
+          <div id="header">
+            <div id="title">Contact Us</div>
+            <div id="close" onclick="contactOff()">X</div>
+          </div>
+          <div id="body">
+            <div class="container">
+                <form action="">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email..">
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+          </div>
+        </div>
+    </div>
+      <script src="js/contact.js"></script>
 </body>
 </html>

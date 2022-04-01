@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/dashbaord.css">
+    <link rel="stylesheet" href="css/contact.css">
     <title>Money Manager</title>
 </head>
 <body>
     <header role="banner">
       <h1>MONEY MANAGER</h1>
       <ul class="utilities">
+        <li class="logout warn"><a onclick="contactOn()" href="#">Contact Us</a></li>
         <li class="logout warn"><a href="home.html">Log Out</a></li>
       </ul>
     </header>
@@ -52,6 +54,7 @@
             </tr>
           </table>
         </section>
+        <a class="panel_add" href="">Add Account +</a>
       </main>
 
       <div id="overlay">
@@ -64,13 +67,6 @@
             <div id="account__summary">
               <section class="panel ">
                 <table>
-                  <!--
-                  <tr>
-                    <th>Date</th>
-                    <th>Transaction</th>
-                    <th>Amount</th>
-                  </tr>
-                  -->
                   <tr>
                     <th>Type</th>
                     <th>Balance</th>
@@ -96,6 +92,11 @@
                     <th>Date</th>
                     <th>Transaction</th>
                     <th>Amount</th>
+                  </tr>
+                  <tr>
+                    <td>09/16/2021</td>
+                    <td>Deposit</td>
+                    <td>2,500.00</td>
                   </tr>
                   <tr>
                     <td>07/04/2021</td>
@@ -128,6 +129,36 @@
           </div>
         </div>
       </div>
+      <div id="contact">
+        <div id="contact_form">
+          <div id="header">
+            <div id="title">Contact Us</div>
+            <div id="close" onclick="contactOff()">X</div>
+          </div>
+          <div id="body">
+            <div class="container">
+                <form action="">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email..">
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+          </div>
+        </div>
+    </div>
       <script src="js/dashboard.js"></script>
+      <script src="js/contact.js"></script>
 </body>
 </html>

@@ -34,6 +34,18 @@ html, body{
     background-color: deepskyblue;
 }
 
+.panel_add{
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    background-color: deepskyblue;
+    margin-left: 1rem;
+}
+
+.panel_add:hover{
+    background-color: rgba(0, 191, 255, 0.7);
+}
+
 .panel a:hover{
     background-color: rgba(0, 191, 255, 0.7);
 }

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/signup.css">
     <title>Money Manager</title>
 </head>
 <body>
@@ -14,8 +16,8 @@
             <p>MONEY MANAGER</p>
         </div>
         <div class="navbar-link">
-            <a href="">SIGN UP</a>
-            <a href="">CONTACT US</a>
+            <a onclick="signUpOn()" href="#">SIGN UP</a>
+            <a onclick="contactOn()" href="#">CONTACT US</a>
         </div>
     </div>
     <div id="main">
@@ -39,5 +41,66 @@
 
         </div>
     </div>
+    <div id="contact">
+        <div id="contact_form">
+          <div id="header">
+            <div id="title">Contact Us</div>
+            <div id="close" onclick="contactOff()">X</div>
+          </div>
+          <div id="body">
+            <div class="container">
+                <form action="">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email..">
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+           </div>
+        </div>
+    </div>
+    <div id="sign_up">
+        <div id="signup_form">
+        <div id="header">
+            <div id="title">Sign Up</div>
+            <div id="close" onclick="signUpOff()">X</div>
+        </div>
+        <div class="container">
+            <form action="dashboard.html">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email..">
+          
+              <label for="password">Password</label>
+              <input type="text" id="password" name="password" placeholder="Choose Password..">
+
+              <label for="confirm_password">Confirm Password</label>
+              <input type="text" id="confirm_password" name="confirm_password" placeholder="Confirm Password..">
+          
+              <input type="submit" value="Sign Up!">
+          
+            </form>
+          </div>
+        </div>
+    </div>
+    <script src="js/signup.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
