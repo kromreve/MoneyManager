@@ -23,6 +23,15 @@
   margin-right: 70px;
 }
 
-.save-button{
-  margin: 5px;
+.btn{
+  border-style: none;
+  margin: 0px 5px 5px 5px;
+  border-radius: 3px;
+  padding: 5px;
+  color: white;
+  background-color: deepskyblue;
+}
+
+.btn:hover{
+  background-color: rgba(0, 191, 255, 0.7);
 }
