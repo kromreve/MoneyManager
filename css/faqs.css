@@ -1,3 +1,8 @@
+body{
+  background-image: url(/img/pexels-katerina-holmes-5905557.jpg);
+  background-size: cover;
+}
+
 .answer {
   background: #fcfae6;
   color: #857a11;

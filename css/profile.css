@@ -1,3 +1,8 @@
+body{
+  background-image: url(/img/pexels-andrea-piacquadio-3755700.jpg);
+  background-size: cover;
+}
+
 .names{
   display: flex;
   flex-direction: row;

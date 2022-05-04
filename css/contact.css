@@ -30,6 +30,7 @@
     width: 50%;
     background-color: white;
     position: absolute;
+    overflow-y: scroll;
     top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
