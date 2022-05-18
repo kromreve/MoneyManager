@@ -21,25 +21,23 @@
         </div>
     </div>
     <div id="main">
-        <div id="left">
 
-        </div>
         <div id="center">
             <div class="form-box">
                 <div class="header-text">
                     Login
                 </div>
-                <input placeholder="Your Email Address" type="text"> 
-                <input placeholder="Your Password" type="password"> 
+            <form action="/" method="GET" id="login-form">
+                <input placeholder="Your Email Address" type="text" id="email-login"> 
+                <input placeholder="Your Password" type="password" id="password-login"> 
                 <input id="terms" type="checkbox"> 
                 <label for="terms"></label>
                 <span>Agree with <a href="#">Terms & Conditions</a></span> 
-                <a href="dashboard.html"><button>login</button></a>
+                <a href="dashboard.html"><button type="submit">login</button></a>
+            </form>
             </div>
         </div>
-        <div id="right">
 
-        </div>
     </div>
     <div id="contact">
         <div id="contact_form">
@@ -49,16 +47,16 @@
           </div>
           <div id="body">
             <div class="container">
-                <form action="">
+                <form action="/" method="GET" id="contact">
               
                   <label for="fname">First Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <input type="text" id="fname-contact" name="firstname" placeholder="Your name..">
               
                   <label for="lname">Last Name</label>
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <input type="text" id="lname-contact" name="lastname" placeholder="Your last name..">
 
                   <label for="email">Email</label>
-                  <input type="text" id="email" name="email" placeholder="Your email..">
+                  <input type="text" id="email-contact" name="email" placeholder="Your email..">
               
                   <label for="subject">Subject</label>
                   <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
@@ -77,7 +75,7 @@
             <div id="close" onclick="signUpOff()">X</div>
         </div>
         <div class="container">
-            <form action="dashboard.html">
+            <form id="signup-form">
           
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name..">

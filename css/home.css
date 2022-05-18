@@ -22,24 +22,14 @@ html, body{
     justify-content: space-around;
 }
 
-#left{
-    width: 12%;
-    height: 100vh;
-}
-
 #center{
     height: 100vh;
-    width: 66%;
+		width: 100%;
     background-color: rgb(201, 198, 198);
     background-image: url(/MoneyManager/img/highrise.jpeg);
     background-image: url(/img/highrise.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-#right{
-    height: 100vh;
-    width: 12%;
 }
 
 .form-box {
